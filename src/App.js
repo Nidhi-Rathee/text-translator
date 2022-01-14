@@ -2,7 +2,7 @@ import { Box, Select, Button, Textarea, Text, Image } from '@chakra-ui/react'
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import { db } from './firebase'
-import { collection, addDoc, getDocs } from 'firebase/firestore'
+import { collection, addDoc } from 'firebase/firestore'
 
 function App() {
     const [options, setOptions] = useState([])
