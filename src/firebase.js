@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from '@firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDznvvj0EsKLDHbKmcPfXH6RObPTg2JAIg",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "translator-3ca93.firebaseapp.com",
     databaseURL: "https://translator-3ca93-default-rtdb.firebaseio.com",
     projectId: "translator-3ca93",
