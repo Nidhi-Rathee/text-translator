@@ -5,7 +5,7 @@ This is a simple text-translator application.
 ## Tech Stack
 
 **Front End** React, Charka UI
-**Back End** Firebase
+**Database** Firebase
 
 ## API reference
 https://libretranslate.com/
